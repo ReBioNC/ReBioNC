@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
+<title id="t">Cristian Dion — terminal banner</title>
+<desc id="d">Animated terminal: whoami prints Cristian Dion, IT Student building AI agents, developer tools and automation; ls lists OfficeCode, agentskill, SPK_Destinasi_Wisata and Penelitian-Harga-Emas.</desc>
+<defs>
+<pattern id="gp" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8b949e" stroke-opacity=".12" stroke-width="1"/></pattern>
+<radialGradient id="gl" cx="50%" cy="55%" r="55%"><stop offset="0" stop-color="#3fb950" stop-opacity=".28"/><stop offset=".5" stop-color="#58a6ff" stop-opacity=".10"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="sl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb950" stop-opacity="0"/><stop offset=".5" stop-color="#3fb950" stop-opacity=".07"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient>
+<clipPath id="win"><rect x="30" y="30" width="1140" height="390" rx="14"/></clipPath>
+<clipPath id="all"><rect width="1200" height="440" rx="18"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:20px;fill:#e6edf3}
+.p{fill:#3fb950;font-weight:700}
+.name{font-size:34px;font-weight:800;fill:#ffffff;letter-spacing:1px}
+.title{font-size:14px;fill:#8b949e}
+.blink{animation:blink 1s steps(1,end) infinite}
+@keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+.scan{animation:scan 6s linear infinite}
+@keyframes scan{0%{transform:translateY(-60px)}100%{transform:translateY(400px)}}
+.glow{animation:glow 6s ease-in-out infinite alternate}
+@keyframes glow{0%{opacity:.35}100%{opacity:.7}}
+.grid{animation:drift 20s linear infinite}
+@keyframes drift{0%{transform:translate(0,0)}100%{transform:translate(40px,40px)}}
+@keyframes a1{0.000%{opacity:0}2.500%{opacity:0}2.506%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a1{animation:a1 18.0s linear infinite}@keyframes a2{0%{transform:translateX(0)}4.444%{transform:translateX(0);animation-timing-function:steps(6,end)}8.889%{transform:translateX(72px)}100%{transform:translateX(72px)}}.a2{animation:a2 18.0s linear infinite}@keyframes a3{0.000%{opacity:1}10.556%{opacity:1}10.561%{opacity:0}100.000%{opacity:0}}.a3{animation:a3 18.0s linear infinite}@keyframes a4{0.000%{opacity:0}10.556%{opacity:0}11.944%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a4{animation:a4 18.0s linear infinite}@keyframes a5{0.000%{opacity:0}14.167%{opacity:0}14.172%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a5{animation:a5 18.0s linear infinite}@keyframes a6{0%{transform:translateX(0)}16.111%{transform:translateX(0);animation-timing-function:steps(13,end)}22.778%{transform:translateX(156px)}100%{transform:translateX(156px)}}.a6{animation:a6 18.0s linear infinite}@keyframes a7{0.000%{opacity:1}24.444%{opacity:1}24.450%{opacity:0}100.000%{opacity:0}}.a7{animation:a7 18.0s linear infinite}@keyframes a8{0.000%{opacity:0}24.444%{opacity:0}25.833%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a8{animation:a8 18.0s linear infinite}@keyframes a9{0.000%{opacity:0}28.056%{opacity:0}28.061%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a9{animation:a9 18.0s linear infinite}@keyframes a10{0%{transform:translateX(0)}30.000%{transform:translateX(0);animation-timing-function:steps(13,end)}36.667%{transform:translateX(156px)}100%{transform:translateX(156px)}}.a10{animation:a10 18.0s linear infinite}@keyframes a11{0.000%{opacity:1}38.333%{opacity:1}38.339%{opacity:0}100.000%{opacity:0}}.a11{animation:a11 18.0s linear infinite}@keyframes a12{0.000%{opacity:0}38.333%{opacity:0}39.722%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a12{animation:a12 18.0s linear infinite}@keyframes a13{0.000%{opacity:0}42.222%{opacity:0}42.228%{opacity:1}91.111%{opacity:1}95.556%{opacity:0}100.000%{opacity:0}}.a13{animation:a13 18.0s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#all)">
+<g class="grid"><rect x="-40" y="-40" width="1280" height="520" fill="url(#gp)"/></g>
+<ellipse class="glow" cx="600" cy="240" rx="640" ry="260" fill="url(#gl)"/>
+</g>
+<rect x="30" y="30" width="1140" height="390" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<path d="M30 70V44a14 14 0 0 1 14-14h1112a14 14 0 0 1 14 14v26z" fill="#161b22"/>
+<line x1="30" y1="70" x2="1170" y2="70" stroke="#30363d"/>
+<circle cx="58" cy="50" r="7" fill="#ff5f57"/><circle cx="82" cy="50" r="7" fill="#febc2e"/><circle cx="106" cy="50" r="7" fill="#28c840"/>
+<text x="600" y="55" text-anchor="middle" class="title">rebionc@github: ~</text>
+<g class="a1"><text x="80" y="112" class="p">$</text><text x="104" y="112" fill="#e6edf3" textLength="72" lengthAdjust="spacingAndGlyphs">whoami</text><g class="a2" style="transform:translateX(72px)"><rect x="104" y="94" width="102" height="26" fill="#0d1117"/><rect class="a3" style="opacity:0" x="105" y="95" width="10" height="22" fill="#3fb950"/></g></g><g class="a4"><text x="80" y="158" class="name">Cristian Dion</text><text x="80" y="190" fill="#8b949e">IT Student  ·  AI Agents  ·  Developer Tools  ·  Automation</text></g><g class="a5"><text x="80" y="238" class="p">$</text><text x="104" y="238" fill="#e6edf3" textLength="156" lengthAdjust="spacingAndGlyphs">ls ~/projects</text><g class="a6" style="transform:translateX(156px)"><rect x="104" y="220" width="186" height="26" fill="#0d1117"/><rect class="a7" style="opacity:0" x="105" y="221" width="10" height="22" fill="#3fb950"/></g></g><g class="a8"><text x="80" y="272" xml:space="preserve"><tspan fill="#58a6ff" font-weight="700">OfficeCode/</tspan><tspan>   </tspan><tspan fill="#58a6ff" font-weight="700">agentskill/</tspan><tspan>   </tspan><tspan fill="#58a6ff" font-weight="700">SPK_Destinasi_Wisata/</tspan><tspan>   </tspan><tspan fill="#58a6ff" font-weight="700">Penelitian-Harga-Emas/</tspan><tspan>   </tspan></text></g><g class="a9"><text x="80" y="320" class="p">$</text><text x="104" y="320" fill="#e6edf3" textLength="156" lengthAdjust="spacingAndGlyphs">echo $MISSION</text><g class="a10" style="transform:translateX(156px)"><rect x="104" y="302" width="186" height="26" fill="#0d1117"/><rect class="a11" style="opacity:0" x="105" y="303" width="10" height="22" fill="#3fb950"/></g></g><g class="a12"><text x="80" y="354" fill="#3fb950">"Ship tools that make AI agents work like a real team."</text></g><g class="a13"><text x="80" y="390" class="p">$</text><rect class="blink" x="105" y="373" width="10" height="22" fill="#3fb950"/></g>
+<g clip-path="url(#win)"><rect class="scan" x="30" y="0" width="1140" height="60" fill="url(#sl)"/></g>
+</svg>
